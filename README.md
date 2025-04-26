@@ -1,6 +1,5 @@
 # Desafio Controle de Fluxo 🚀
 
-Projeto Java que recebe dois números, valida se o primeiro é maior que o segundo e realiza uma contagem simples. Em caso de erro, utiliza `try-catch` para tratar a exceção personalizada `com.desafio.ParametroInvalidosException`.
 
 ## Como funciona
 
@@ -30,5 +29,4 @@ Parâmetros inválidos: 2 é menor que 5
 ## Destaques
 
 - Uso de `try-catch` para tratamento de exceções.
-- Exceção customizada (`com.desafio.ParametroInvalidosException`) para validação de parâmetros.
 - Contagem dinâmica baseada na diferença dos números.
