@@ -1,4 +1,4 @@
-import com.sun.tools.javac.Main;
+package com.desafio;
 
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ public class DesafioControleDeFluxo {
 
     }
 
-    static void contar(int p1, int p2) throws ParametroInvalidosException{
+    static void contar(int p1, int p2) throws ParametroInvalidosException {
         ParametroInvalidosException.validar(p1, p2);
         int contagem = p1 - p2;
 

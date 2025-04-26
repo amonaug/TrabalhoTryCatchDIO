@@ -1,3 +1,5 @@
+package com.desafio;
+
 public class ParametroInvalidosException extends Exception {
     public ParametroInvalidosException(int parametroUm, int parametroDois) {
         super("Parâmetros inválidos: " + parametroUm + " é menor que " + parametroDois);
